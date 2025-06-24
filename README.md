@@ -8,7 +8,7 @@ Please prepare an environment with python=3.8, and then use the command "pip ins
 ### 2. Dataset
 QaTa-COV19 Dataset See Kaggle: [Link (Original)](https://www.kaggle.com/datasets/aysendegerli/qatacov19-dataset)--**We use QaTa-COV19-v2 in our experiments.**
 
-MosMedData+ Dataset: [Link (Original)](http://medicalsegmentation.com/covid19/)
+MosMedData+ Dataset: [Link (Original)](http://medicalsegmentation.com/covid19/)--You need to use 'convert('L')' to convert the label to a grayscale image.
 
 QaTa-COV19 and  MosMedData+ Text Annotations:Check out the related content in LViT: [https://github.com/HUANGLIZI/LViT](https://github.com/HUANGLIZI/LViT)
 
