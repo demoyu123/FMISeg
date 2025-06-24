@@ -10,7 +10,7 @@ if __name__ == '__main__':
     parser.add_argument('--L_path', default='Low Frequency iamge path')
     parser.add_argument('--H_path', default='High Frequency iamge path')
     parser.add_argument('--wavelet_type', default='haar', help='haar, db2, bior1.5, bior2.4, coif1, dmey')
-    parser.add_argument('--if_RGB', default=False)
+    parser.add_argument('--if_RGB', default=True)
     args = parser.parse_args()
 
     if not os.path.exists(args.L_path):
